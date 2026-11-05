@@ -1,0 +1,31 @@
+EMPLOYEE PHISHING AWARENESS GUIDE
+
+How to Identify Phishing Emails
+
+1. Check the sender's email address carefully.
+2. Be cautious of urgent or threatening messages.
+3. Do not click unknown or suspicious links.
+4. Never open unexpected email attachments.
+5. Check spelling, grammar and unusual formatting.
+6. Verify requests through official communication channels.
+7. Never share passwords or OTPs through email links.
+
+What to Do When You Receive a Suspicious Email
+
+1. Do not reply to the email.
+2. Do not click links or download attachments.
+3. Report the email to the IT or Security Team.
+4. Follow your organization's security procedures.
+5. Delete the email only according to organizational policy.
+
+Security Best Practices
+
+- Use strong and unique passwords.
+- Enable Multi-Factor Authentication (MFA).
+- Keep systems and antivirus software updated.
+- Participate in security awareness training.
+- Always verify unexpected requests for sensitive information.
+
+Conclusion
+
+Employee awareness is an important part of cybersecurity. Identifying suspicious emails and reporting them promptly can help prevent phishing attacks and protect organizational data.
