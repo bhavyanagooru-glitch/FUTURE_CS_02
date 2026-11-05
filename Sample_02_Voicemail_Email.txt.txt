@@ -1,0 +1,44 @@
+SAMPLE 2 – FAKE VOICEMAIL EMAIL
+
+From: noreply@target.example.com
+To: john.doe@target.example.com
+
+Subject: target.example.com - Voice Message Access for Clients
+
+Date: Fri, 04 Mar 2022 14:28:18 +0000
+
+Authentication Results:
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL
+
+Sender IP: 192.0.2.1
+
+Email Message:
+
+Internal Notification: Vmail Received
+
+New Message from: (801) 477-6790
+
+Caller ID: (801) 477-6753
+Length: 00:60 Sec
+Date: 2022-03-04
+
+Reception: Vossloh-schwabe Voice Message Service
+
+Download attached file to listen to your voice message.
+
+HTML Attachment:
+audio_john.doe@target.example.com_file.htm
+
+Suspicious Redirect:
+https://attacker.example.com/
+
+Classification: High Risk – Phishing
+
+Source:
+autinerd/phishing-mail-examples
+voice-message/example1
+
+Note:
+The sample uses anonymized example domains and IP addresses.
