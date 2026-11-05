@@ -1,0 +1,33 @@
+SAMPLE 2 – EMAIL HEADER ANALYSIS
+
+From: noreply@target.example.com
+To: john.doe@target.example.com
+
+Subject: Voice Message Access for Clients
+
+Date: Fri, 04 Mar 2022 14:28:18 +0000
+
+Sender IP: 192.0.2.1
+
+Authentication Results:
+
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL
+
+Header Observations:
+
+1. SPF authentication failed.
+2. DKIM signature was not present.
+3. DMARC authentication failed.
+4. Sender IP was not authorised by the example domain.
+5. Email requests the recipient to download an HTML attachment.
+
+Conclusion:
+
+The email has multiple suspicious authentication
+and content indicators.
+
+Risk Classification: High Risk – Phishing
+
+Note: Sender domain and IP are anonymized example values.

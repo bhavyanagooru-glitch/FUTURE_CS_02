@@ -1,0 +1,27 @@
+Sample 01 – Email Header Analysis
+
+From: attack@attacker.example.com
+
+Return-Path: attack@attacker.example.com
+
+Subject: Monday, March 7 2022
+
+Date: Mon, 7 Mar 2022 17:43:57 +0000
+
+To: Undisclosed recipients
+
+Message-ID: CPWP152MB@PROD.OUTLOOK.COM
+
+Header Observations
+
+1. Sender address uses attacker.example.com.
+2. Return-Path matches the sender address.
+3. Recipient information is hidden.
+4. Received header details are not available in the supplied sample.
+5. SPF authentication status: Not available.
+6. DKIM authentication status: Not available.
+7. DMARC authentication status: Not available.
+
+Conclusion
+
+The available header information contains suspicious indicators. Full email authentication cannot be verified because complete routing and authentication headers are missing.
