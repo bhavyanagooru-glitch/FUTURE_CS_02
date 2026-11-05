@@ -1,0 +1,31 @@
+SAMPLE 2 – HTML ATTACHMENT AND LINK ANALYSIS
+
+Email Type: Fake Voicemail Notification
+
+Attachment Name:
+audio_john.doe@target.example.com_file.htm
+
+Attachment Type: HTML
+
+Observed Redirect Domain:
+attacker.example.com
+
+Findings:
+
+1. Email asks the recipient to download an HTML attachment.
+2. The attachment was associated with an Outlook-style sign-in page.
+3. The supplied HTML sample contains a browser redirect.
+4. The page may imitate a legitimate login page.
+5. The recipient could be tricked into sharing account credentials.
+
+Potential Impact:
+Credential theft and redirection to an untrusted website.
+
+Recommendation:
+Do not open unexpected HTML attachments.
+Never enter passwords through links in unexpected emails.
+
+Classification: High Risk – Phishing
+
+Note:
+The domain is anonymized. The attachment was not executed.

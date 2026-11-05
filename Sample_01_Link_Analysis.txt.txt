@@ -1,0 +1,32 @@
+Sample 01 – Suspicious URL Analysis
+
+Email Subject: Monday, March 7 2022
+
+Displayed Link Text: Print & Preview Here
+
+Extracted URL: https://attacker.example.com/
+
+Protocol: HTTPS
+
+Domain: attacker.example.com
+
+Findings
+
+1. The URL domain does not match the displayed MetroFax brand.
+2. The link is presented as a fax preview action.
+3. The sender domain and link domain are the same.
+4. The URL uses HTTPS, but HTTPS alone does not guarantee that a website is legitimate.
+5. The domain example.com is reserved for documentation and educational examples.
+
+Risk Assessment
+
+Classification: Suspicious – Educational Phishing Sample
+
+Risk Level: High (based on the email's phishing indicators).
+
+Recommendation
+
+- Do not click suspicious email links.
+- Verify the sender using official communication channels.
+- Check the actual destination URL before trusting a link.
+- Report suspicious emails to the security team.
